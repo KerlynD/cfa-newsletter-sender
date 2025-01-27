@@ -26,7 +26,7 @@ TESTING = False
 TEST_EMAIL = "YOUR EMAIL GOES HERE"
 # UNCOMMENT LINE 30 TO TEST THE EMAILS
 # PLEASE TEST IT AND CHECK FORMATTING BEFORE SENDING TO EVERYONE
-# THIS WILL
+# this will only send the email to whatever email is on line 26
 # TESTING = True
 
 # send email to each user
