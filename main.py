@@ -20,14 +20,13 @@ users = cursor.fetchall()
 cursor.close()
 conn.close()
 
-
 TESTING = False
 # PUT YOUR EMAIL HERE TO TEST THE EMAILS
-TEST_EMAIL = "YOUR EMAIL GOES HERE"
+TEST_EMAIL = "TESTING EMAIL"
 # UNCOMMENT LINE 30 TO TEST THE EMAILS
 # PLEASE TEST IT AND CHECK FORMATTING BEFORE SENDING TO EVERYONE
 # this will only send the email to whatever email is on line 26
-# TESTING = True
+TESTING = True
 
 # send email to each user
 for user in users:
