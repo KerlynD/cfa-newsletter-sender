@@ -35,4 +35,5 @@ for user in users:
             print(f"Testing emails with {TEST_EMAIL}")
             send_emails(os.getenv("EMAIL"), os.getenv("EMAIL_PASSWORD"), user)
     else:
+        print("sending to everyone subbed")
         send_emails(os.getenv("EMAIL"), os.getenv("EMAIL_PASSWORD"), user)

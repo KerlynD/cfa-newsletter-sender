@@ -11,7 +11,7 @@ def send_emails(from_email, from_password, user):
 
     sent_from = from_email
     sent_to = user[0]
-    subject = "Code for all Newsletter"
+    subject = "Code for All Newsletter"
     # IDK HOW UR GONNA SEND OUT FUTURE NEWSLETTERS SO UPDATE THIS ACCORDINGLY
     # EITHER GET THE HTML CONTENT FROM GITHUB OR FROM A LOCAL FILE
 
